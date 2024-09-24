@@ -1,0 +1,54 @@
+.banner_section{
+    height: 100vh;
+}
+.banner_image{
+    filter: brightness(50%);
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.banner_content{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 35%;
+}
+
+.banner_content h2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner_content h3{
+    margin: 25px 0;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: start;
+}
+
+.banner_contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CB2C2C;
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.banner_aside_content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner_aside_content p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
