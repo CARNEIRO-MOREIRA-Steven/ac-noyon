@@ -27,12 +27,12 @@ const FuturEvents = () => {
     <section className='futur_events_section'>
         <section className='futur_events_container'>
       <section className='evenement_a_venir'>
-        <h1>Événements à venir</h1>
+        <h2>Événements à venir</h2>
         <ul>
           {futurEvenements.length > 0 ? (
             futurEvenements.map((evenement) => (
               <li key={evenement.id}>
-                <h2>{evenement.Nom}</h2>
+                <p>{evenement.Nom}</p>
               </li>
             ))
           ) : (

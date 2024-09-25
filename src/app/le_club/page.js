@@ -1,11 +1,18 @@
 import React from 'react'
 import Header from '../components/Header'
+import LeClubBanner from '../components/LeClubBanner'
+import LeClubIntro from '../components/LeClubIntro'
+
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
     <div>
       <Header />
-      <h2>Le Club</h2>
+      <LeClubBanner />
+      <LeClubIntro />
+
+      <Footer />
     </div>
   )
 }

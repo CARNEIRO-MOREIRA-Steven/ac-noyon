@@ -3,7 +3,7 @@
     margin-top: -400px;
     background-color: black;
     color: #ffffff;
-    height: 100vh;
+    height: 80vh;
 }
 
 .inscription_image{
@@ -39,4 +39,31 @@
 
 ul, li {
     font-size: 25px;
+}
+
+.seance_gratuite_title{
+    text-align: center;
+    font-size:50px;
+    margin-bottom: 100px;
+} 
+
+.seance_gratuite_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.seance_gratuite_texte{
+    width: 30%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.seance_gratuite_image{
+    width: 35%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
 }

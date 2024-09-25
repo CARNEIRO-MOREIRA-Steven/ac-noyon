@@ -1,0 +1,31 @@
+.footer_container{
+    margin-top: 50px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.footer_aside{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footer_aside_a_propos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+.footer_aside_a_propos a{
+    padding: 5px;
+}
+
+.footer_icon{
+    width: 30px;
+    height: 30px;
+}

@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import FuturEvents from './components/FuturEvents'
 import Inscription_intro from './components/Inscription_intro'
+import Footer from './components/Footer'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <Banner />
       <FuturEvents />
       <Inscription_intro />
+      <Footer />
     </section>
   )
 }

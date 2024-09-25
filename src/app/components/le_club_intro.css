@@ -1,0 +1,25 @@
+.le_club_image{
+    filter: invert();
+    width: 300px;
+}
+
+.le_club_title{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.le_club_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.entraineurs_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    flex-direction: row-reverse;
+}
