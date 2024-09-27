@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
+import InscriptionHoraires from '../components/InscriptionHoraires'
 
 const page = () => {
   return (
     <div>
       <Header />
-      <h2>Inscriptions / Horaires</h2>
+      <InscriptionHoraires />
     </div>
   )
 }

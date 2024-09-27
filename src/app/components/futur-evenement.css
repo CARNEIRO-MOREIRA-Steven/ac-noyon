@@ -8,7 +8,7 @@
 }
 
 .futur_events_container{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     box-shadow: #ffffff;
@@ -44,7 +44,7 @@
 }
 
 
-h1 {
+.evenement_a_venir_title{
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -57,3 +57,20 @@ ul {
 li {
     margin: 5px 0;
 }
+
+@media screen and (min-width: 1200px) {
+    .futur_events_container{
+        width: 90%;
+    }
+    }
+
+@media screen and (min-width: 1440px) {
+        .futur_events_container{
+            width: 80%;
+    }
+    }
+@media screen and (min-width: 1600px) {
+            .futur_events_container{
+                width: 70%;
+    }
+    }

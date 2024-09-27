@@ -19,7 +19,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 150px;
     height: 600px;
 }
 
@@ -37,6 +36,14 @@
     font-weight: 600;
 }
 
+.inscription_intro_content li{
+    margin-left: 100px;
+}
+
+.inscription_intro_content p{
+    margin-left: 100px;
+}
+
 ul, li {
     font-size: 25px;
 }
@@ -52,7 +59,7 @@ ul, li {
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 50px;
+    gap: 150px;
 }
 
 .seance_gratuite_texte{
