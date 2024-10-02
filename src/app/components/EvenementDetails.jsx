@@ -9,7 +9,7 @@ const EvenementDetails = () => {
 
     const fetchevenementDetails = async () => {
         try {
-            const res = await fetch('http://localhost:1337/api/dernierseevenements?populate=*');
+            const res = await fetch('https://ac-noyon-strapi-app.onrender.com/api/derniers-evenements?populate=*');
             if (!res.ok) {
                 throw new Error(`HTTP error! status: ${res.status}`);
             }
@@ -77,7 +77,7 @@ const EvenementDetails = () => {
                                             {image[currentIndex] && (
                                                 <img
                                                     className='image_evenement'
-                                                    src={`http://localhost:1337${image[currentIndex].url}`}
+                                                    src={`https://ac-noyon-strapi-app.onrender.com${image[currentIndex].url}`}
                                                     alt={image[currentIndex].alternativeText || 'Image de l\'événement'}
                                                 />
                                             )}

@@ -8,7 +8,7 @@ const FuturEvents = () => {
 
   const fetchEvenements = async () => {
     try {
-      const res = await fetch('http://localhost:1337/api/futur-evenements');
+      const res = await fetch('https://ac-noyon-strapi-app.onrender.com/api/evenements');
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
@@ -38,7 +38,7 @@ const FuturEvents = () => {
             {futurEvenements.length > 0 ? (
               futurEvenements.map((evenement) => (
                 <li key={evenement.id}>
-                  <p>{evenement.Nom}</p>
+                  <p>{evenement.name}</p>
                 </li>
               ))
             ) : (
@@ -53,7 +53,7 @@ const FuturEvents = () => {
             {futurEvenements.length > 0 ? (
               futurEvenements.map((evenement) => (
                 <li key={evenement.id}>
-                  <p>{new Date(evenement.Date).toLocaleString()}</p>
+                  <p>{new Date(evenement.date).toLocaleString()}</p>
                 </li>
               ))
             ) : (
