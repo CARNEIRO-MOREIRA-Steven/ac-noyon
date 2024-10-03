@@ -3,7 +3,7 @@ import './inscription_intro.css'
 
 const Inscription_intro = () => {
   return (
-    <section>
+    <section className='inscription_test_container'>
       <section className='inscription_intro_section'>
         <img className='inscription_image' src='./compet.jpg'></img>
         <section className='inscription_intro_content'>
@@ -18,7 +18,7 @@ const Inscription_intro = () => {
         <h3>L'athlétisme dès le plus jeune âge.<br></br>L’AC Noyonnais vous propose de pratiquer l'athlétisme dès 4 ans</h3>
         </section>
         </section>
-        <section>
+        <section className='test_seance'>
             <h2 className='seance_gratuite_title'>Une séance gratuite pour vous aider à décider !!</h2>
             <section className='seance_gratuite_content'>
                 <p className='seance_gratuite_texte'>Vous voulez vous inscrire à la section Athlétisme de l'AC Noyonnais, mais vous hésitez encore.<br></br>

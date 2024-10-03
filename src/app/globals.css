@@ -1,5 +1,5 @@
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
@@ -20,11 +20,13 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
   
 }
 * {
   padding: 0;
   margin: 0;
+  color: #ffffff;
 }
 
 a {
@@ -41,9 +43,19 @@ h2{
   font-size: 35px;
 }
 
+h1, h2, h3{
+  color: #ffffff;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2{
+    font-size: 25px;
   }
 }
