@@ -87,8 +87,10 @@ li {
         }
         .evenement_a_venir_title{
             font-size: 20px;
+            text-align: center;
         }
         .evenement_a_venir p, .date_evenement_a_venir p {
             font-size: 17px;
+            text-align: center;
         }
     }

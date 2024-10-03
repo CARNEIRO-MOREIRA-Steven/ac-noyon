@@ -31,3 +31,30 @@
     bottom: 30px;
     text-align: center;
 }
+@media screen and (max-width: 767px) {
+    .banner_le_club_content{
+        width: 90%;
+        left: auto;
+    }
+    .banner_le_club_content h1{
+        font-size: 40px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .banner_le_club_content h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .image_banner_le_club{
+        height: 100vh;
+    }
+    .banner_le_club_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_le_club_evenement{
+        top: 65%;
+        right: auto;
+    }
+}

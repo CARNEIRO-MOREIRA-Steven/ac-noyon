@@ -54,7 +54,7 @@ const EvenementDetails = () => {
     return (
         <section className='evenement_container'>
             <img src='./competitons.jpg' className='image_banner' alt="Bannière" />
-            <section className='banner_content'>
+            <section className='banner_content_evenement'>
                 <h1>Revivez nos Moments Forts !</h1>
                 <h2>Retour sur les événements marquants qui ont rythmé la vie de notre club.</h2>
             </section>

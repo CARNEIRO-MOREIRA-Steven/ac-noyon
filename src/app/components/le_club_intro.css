@@ -23,3 +23,21 @@
     gap: 200px;
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 767px) {
+    .le_club_title{
+        margin: 30px 0;
+        font-size: 30px;
+    }
+    .le_club_content{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .le_club_image{
+        width: 150px;
+    }
+    .entraineurs_content{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}
