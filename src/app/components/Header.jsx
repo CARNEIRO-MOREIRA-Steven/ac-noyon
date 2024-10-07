@@ -46,6 +46,7 @@ const Header = () => {
         <Link href='/evenements' className={activePath === '/evenements' ? 'active' : ''}>Evénements</Link>
         <Link href='/inscriptions_horaires' className={activePath === '/inscriptions_horaires' ? 'active' : ''}>Inscriptions / Horaires</Link>
         <Link href='/contact' className={activePath === '/contact' ? 'active' : ''}>Contact</Link>
+        <a href="https://ac-noyon-strapi-app.onrender.com/"><img className="connect_user" src='user-regular.svg'></img></a>
       </nav>
       <div className="mobile-menu">
         <div id="menuToggle">
@@ -61,6 +62,7 @@ const Header = () => {
             <li><Link href='/contact' className={activePath === '/contact' ? 'active' : ''}>Contact</Link></li>
           </ul>
         </div>
+        <a href="https://ac-noyon-strapi-app.onrender.com/"><img className="connect_user" src='user-regular.svg'></img></a>
       </div>
     </header>
   );

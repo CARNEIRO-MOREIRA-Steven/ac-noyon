@@ -27,6 +27,9 @@
     margin-left: 50px;
     filter: invert();
 }
+.connect_user{
+  width: 20px;
+}
 
 .desktop-nav {
     display: flex;
@@ -165,6 +168,8 @@
   
     .mobile-menu {
       display: flex;
+      align-items: flex-end;
+      gap: 25px;
     }
   
     header {
