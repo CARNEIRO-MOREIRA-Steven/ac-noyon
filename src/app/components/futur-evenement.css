@@ -11,50 +11,62 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.evenement_a_venir, .date_evenement_a_venir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px; 
+    width: 400px;
 }
 
 .evenement_a_venir {
     background-color: #000000; 
     border-radius: 15px 0 0 15px; 
     color: #ffffff;
-    flex: 1; 
-    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%); 
-    display: flex;
-    position: relative;
-    left: 52px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    padding: 20px; 
 }
 
 .date_evenement_a_venir {
     background-color: #CB2C2C; 
     border-radius: 0 15px 15px 0; 
-    clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%); 
-    flex: 1; 
-    display: flex;
-    position: relative;
-    right: 55px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    padding: 20px; 
 }
 
+.event-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.event-details h2{
+    font-size: 30px;
+}
 
 .evenement_a_venir_title{
     font-size: 24px;
     margin-bottom: 10px;
 }
+.react-calendar__tile--active{
+    background-color: #cb2c2ca1;
+}
+.marked-date {
+    background-color: #CB2C2C; 
+    color: white; 
+  }
+  
+  .react-calendar{
+    background-color: #000000;
+  }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button{
+    display: none;
 }
 
-li {
-    margin: 5px 0;
+.react-calendar__navigation button:enabled:hover, .react-calendar__navigation button:enabled:focus, .react-calendar__tile--hasActive,
+ .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus{
+    background-color: #ffffff28;
 }
 
 @media screen and (min-width: 1200px) {
@@ -75,15 +87,28 @@ li {
     }
     @media screen and (max-width: 767px) {
         .evenement_a_venir{
-            padding: 10px 30px 10px 10px;
-            left: 22px;
+            border-radius: 25px 25px 0 0;
         }
         .date_evenement_a_venir{
-            padding: 10px 10px 10px 30px;
-            right: 22px;
+            border-radius: 0 0 25px 25px;
+            min-height: 200px;
+        }
+        .date_evenement_a_venir, .evenement_a_venir{
+            width: 250px;
         }
         .futur_events_container{
             width: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .futur_events_section{
+            bottom: 150px;
+        }
+
+        .event-details h2 {
+            text-align: center;
+            font-size: 25px;
         }
         .evenement_a_venir_title{
             font-size: 20px;
@@ -92,5 +117,14 @@ li {
         .evenement_a_venir p, .date_evenement_a_venir p {
             font-size: 17px;
             text-align: center;
+        }
+    }
+
+    @media screen and (min-width : 768px) and (max-width: 1023px) {
+        .event-details h2{
+            font-size: 25px;
+        }
+        .date_evenement_a_venir, .evenement_a_venir{
+            width: 300px;
         }
     }
