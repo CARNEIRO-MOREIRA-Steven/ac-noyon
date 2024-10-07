@@ -144,6 +144,12 @@ h2{
     .image-gallery.left, .image-gallery.right{
         flex-direction: column;
     }
+    .image-gallery.right .button_left{
+        left: -130px;
+    }
+    .image-gallery.right .button_right{
+        left: 130px;
+    }
     .image_evenement{
         width: 250px;
         height: 200px;
