@@ -1,59 +1,148 @@
+.inscription_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .inscription_image{
     width: 100%;
-    height: 400px;
+    height: 100vh;
     object-fit: cover;
-    filter: brightness(55%);
-    padding-top: 150px;
-    border-radius: 20px;
+    filter: brightness(40%);
+    border-radius: 50px 0 0 50px;
 }
 
 .title_inscription{
-    padding: 150px 0 0 0;
     font-size: 50px;
+    width: 650px;
+    text-align: center;
 }
-
-.subtitle_inscription{
-    padding: 50px 0;
-}
-
-.inscription_container{
+.inscription_intro_container{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
 .inscription_content{
-    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%; 
+    padding-left: 150px;
 }
 
-.inscription_container aside{
-    width: 30%;
+.inscription_intro_container aside{
+    width: 40%;
+}
+
+.inscription_info_container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inscription_info_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inscription_ffa{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_ffa{
+    margin-bottom: 20px;
+}
+
+.inscription_ffa ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.horaire_info_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horaire_info_container h2{
+    padding-bottom: 100px;
+}
+
+.horaire_info_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
 }
 
 @media screen and (max-width: 767px) {
-    .inscription_container{
+    .inscription_intro_container{
         flex-direction: column-reverse;
         align-items: center;
     }
     .inscription_image{
-        padding: 0;
-        border-radius: 0;
+        border-radius: 0 0 25px 25px;
+        height: 40vh;
     }
-    .inscription_container aside{
+    .inscription_intro_container aside{
         width: 100%;
     }
     .inscription_content{
-        width: 92%;
+        width: 90%;
+        padding: 0;
 
     }
     .title_inscription{
-        padding-top: 30px;
-        font-size: 40px;
+        padding: 15px 0;
+        font-size: 35px;
+        width: 100%;
+    }
+    .image_ffa{
+        height: 120px;
+    }
+    .inscription_ffa{
         text-align: center;
     }
-    .subtitle_inscription{
-        font-size: 30px;
+    .inscription_ffa li{
+        list-style: none;
+    }
+    .horaire_info_container{    
+        align-items: center;
         text-align: center;
+        justify-content: center;
+    }
+    .horaire_info_container h2{
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .horaire_info_container h3{
+        font-size: 18px;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .horaire_info_container p {
+        font-size: 18px;
+        padding-bottom: 15px;
+        width: 90%;
+        border-bottom: solid 2px #ffffff;
+    }
+    .image_horaire{
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 50px;
     }
 }

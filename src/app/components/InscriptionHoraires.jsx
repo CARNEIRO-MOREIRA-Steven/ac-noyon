@@ -3,18 +3,47 @@ import './inscription_horaires.css'
 
 const InscriptionHoraires = () => {
   return (
-    <section>
-    <section className='inscription_container'>
+    <section className="inscription_page">
+    <section className='inscription_intro_container'>
       <section className='inscription_content'>
-      <h1 className='title_inscription'>Inscription au Club</h1>
-      <h2 className='subtitle_inscription'>Rejoignez notre club dynamique, profitez <br></br>de nos installations et activités sportives.</h2>
-      <h3>Pourquoi s'inscrire ?</h3>
-      <p>Programmes adaptés à tous les niveaux : <br></br>
-      Événements réguliers : Participez à nos compétitions et événements.</p>
+      <h1 className='title_inscription'>Les inscriptions 2024/2025 sont ouvertes !</h1>
+      <section className="inscription_info_content">
+      <section>
+        <img src='licence-2024-2025.png' className="image_ffa"></img>
+      </section>
+      <section className="inscription_ffa">
+        <h2>Inscription FFA</h2>
+        <ul>Pièces à joindre :
+          <li>Répondre au questionnaire de la FFA</li>
+          <li>Une photo d'identité</li>
+          <li>Montant de la cotisation, de l'assurance et de la license</li>
+        </ul>
+      </section>
+      </section>
       </section>
       <aside>
         <img src='inscription.jpg' className='inscription_image'></img>
       </aside>
+    </section>
+    <section className="horaire_info_container">
+      <h2>Nos horaires d'entrainements</h2>
+      <section className="horaire_info_section">
+      <aside>
+      <img src="image_horaire.jpg" className="image_horaire"></img>
+      </aside>
+      <section>
+      <h3>Lundi de 17h30 à 19h30</h3>
+      <p>De Benjamins à Masters</p>
+      <h3>Mardi de 17h15 à 18h15</h3>
+      <p>De Benjamins à Cadets</p>
+      <h3>Mercredi de 16h00 à 17h15</h3>
+      <p>De Baby à Ecoles d'Athlétisme</p>
+      <h3>Mercredi de 16h00 à 19h30</h3>
+      <p>De Poussins, Benjamins à Masters</p>
+      <h3>Vendredi de 17h30 à 19h30</h3>
+      <p>De Benjamins à Masters</p>
+      </section>
+      </section>
     </section>
 </section>
   )

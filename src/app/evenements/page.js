@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
 import EvenementDetails from '../components/EvenementDetails'
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
-    <div>
+    <section>
       <Header />
       <EvenementDetails />
-    </div>
+      <Footer />
+    </section>
   )
 }
 

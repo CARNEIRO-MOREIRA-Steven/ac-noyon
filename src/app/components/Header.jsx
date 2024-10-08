@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <header className='header_section'>
-      <img className='logo_banner' alt='logo_club' src='./logo_b.png'></img>
+      <a href='/'><img className='logo_banner' alt='logo_club' src='./logo_b.png'></img></a>
       <nav className="desktop-nav">
         <Link href='/' className={activePath === '/' ? 'active' : ''}>Accueil</Link>
         <Link href='/le_club' className={activePath === '/le_club' ? 'active' : ''}>Le Club</Link>
