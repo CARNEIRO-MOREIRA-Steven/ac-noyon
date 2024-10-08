@@ -20,7 +20,7 @@ const page = () => {
         .catch(error => console.error('Erreur:', error));
     };
 
-    const intervalId = setInterval(pingApi, 300000);
+    const intervalId = setInterval(pingApi, 100000);
 
     return () => clearInterval(intervalId);
   }, []);
