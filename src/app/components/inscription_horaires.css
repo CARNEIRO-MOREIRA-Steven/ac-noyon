@@ -81,6 +81,16 @@
     padding-bottom: 100px;
 }
 
+.horaire_entrainement p, h3 {
+    text-align: center;
+}
+
+.horaire_entrainement{
+    padding: 10px 0;
+    border-bottom: solid 2px #ffffff;
+    width: 90%;
+}
+
 .horaire_info_section{
     display: flex;
     flex-direction: row;
@@ -124,6 +134,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        padding: 50px 0;
     }
     .horaire_info_container h2{
         font-size: 25px;
@@ -139,12 +150,10 @@
         font-size: 18px;
         padding-bottom: 15px;
         width: 90%;
-        border-bottom: solid 2px #ffffff;
     }
     .image_horaire{
         width: 100%;
         object-fit: cover;
-        margin-bottom: 50px;
     }
     .horaire_info_section{
         flex-direction: column;

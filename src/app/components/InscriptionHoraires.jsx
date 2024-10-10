@@ -32,16 +32,25 @@ const InscriptionHoraires = () => {
       <img src="image_horaire.jpg" className="image_horaire"></img>
       </aside>
       <section className="horaire_info_content">
-      <h3>Lundi de 17h30 à 19h30</h3>
-      <p>De Benjamins à Masters</p>
-      <h3>Mardi de 17h15 à 18h15</h3>
-      <p>De Benjamins à Cadets</p>
-      <h3>Mercredi de 16h00 à 17h15</h3>
-      <p>De Baby à Ecoles d'Athlétisme</p>
-      <h3>Mercredi de 16h00 à 19h30</h3>
-      <p>De Poussins, Benjamins à Masters</p>
-      <h3>Vendredi de 17h30 à 19h30</h3>
-      <p>De Benjamins à Masters</p>
+        <aside className="horaire_entrainement">
+        <h3>Lundi de 17h30 à 19h30</h3>
+        <p>De Benjamins à Masters</p>
+        </aside>
+        <aside className="horaire_entrainement">
+        <h3>Mardi de 17h15 à 18h15</h3>
+        <p>De Benjamins à Cadets</p>
+        </aside>
+        <aside className="horaire_entrainement">      
+        <h3>Mercredi de 16h00 à 17h15</h3>
+        <p>De Baby à Ecoles d'Athlétisme</p></aside>
+        <aside className="horaire_entrainement">
+        <h3>Mercredi de 16h00 à 19h30</h3>
+        <p>De Poussins, Benjamins à Masters</p>
+        </aside>
+        <aside className="horaire_entrainement">
+        <h3>Vendredi de 17h30 à 19h30</h3>
+        <p>De Benjamins à Masters</p>
+        </aside>
       </section>
       </section>
     </section>
