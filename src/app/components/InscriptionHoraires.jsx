@@ -31,7 +31,7 @@ const InscriptionHoraires = () => {
       <aside>
       <img src="image_horaire.jpg" className="image_horaire"></img>
       </aside>
-      <section>
+      <section className="horaire_info_content">
       <h3>Lundi de 17h30 à 19h30</h3>
       <p>De Benjamins à Masters</p>
       <h3>Mardi de 17h15 à 18h15</h3>

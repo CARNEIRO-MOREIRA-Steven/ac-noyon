@@ -92,6 +92,7 @@
     .inscription_intro_container{
         flex-direction: column-reverse;
         align-items: center;
+        margin-bottom: 50px;
     }
     .inscription_image{
         border-radius: 0 0 25px 25px;
@@ -144,5 +145,14 @@
         width: 100%;
         object-fit: cover;
         margin-bottom: 50px;
+    }
+    .horaire_info_section{
+        flex-direction: column;
+        gap: 0;
+    }
+    .horaire_info_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

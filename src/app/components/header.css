@@ -40,6 +40,9 @@
   nav a.active, #menu li a.active {
     color: #CB2C2C; 
     font-weight: bold;
+    background-color: #00000098;
+    border-radius: 20px;
+    padding: 10px;
     text-decoration: underline 3px;
   }
   .header_logo {
