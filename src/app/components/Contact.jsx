@@ -75,15 +75,15 @@ const Contact = () => {
       <aside className='aside_form'>
       <div className='info_contact'>
       <img alt='icon maison' src='./house-solid.svg'></img>
-      <p>ADRESSE : </p>
+      <p>ADRESSE : Rue du Chanoine Levasseur, 60400 Noyon </p>
       </div>
       <div className='info_contact'>
       <img alt='icon envelope' src='./envelope-solid.svg'></img>
-      <p>EMAIL : </p>
+      <p>EMAIL : ac.noyonnais@gmail.com </p>
       </div>
       <div className='info_contact'>
       <img alt='icon telephone' src='./phone-solid.svg'></img>
-      <p>TEL : </p>
+      <p>TEL : 06.81.95.31.66</p>
       </div>
       </aside>
       <section className='container_form'>

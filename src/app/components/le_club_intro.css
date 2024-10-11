@@ -27,7 +27,6 @@
 @media screen and (max-width: 767px) {
     .le_club_title{
         margin: 30px 0;
-        font-size: 30px;
     }
     .le_club_content{
         flex-direction: column-reverse;
@@ -39,5 +38,20 @@
     .entraineurs_content{
         flex-direction: column-reverse;
         gap: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .le_club_content, .entraineurs_content{
+        gap: 50px;
+    }
+    .le_club_content aside{
+        width: 50%;
+    }
+    .le_club_image{
+        width: 200px;
+    }
+    .le_club_title{
+        margin: 50px 0;
     }
 }

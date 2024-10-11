@@ -12,9 +12,9 @@ h2{
 
 .banner_content_evenement{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 10%;
-    width: 50%;
+    width: 55%;
 }
 
 .detail_evenement{
@@ -80,7 +80,7 @@ h2{
 }
 
 .image-gallery p {
-    width: 30%;
+    width: 40%;
 }
 
 
@@ -150,6 +150,12 @@ h2{
     .image-gallery.right .button_right{
         left: 130px;
     }
+    .image-gallery{
+        width: 100%;
+    }
+    .image-gallery p{
+        width: 100%;
+    }
     .image_evenement{
         width: 250px;
         height: 200px;
@@ -171,5 +177,30 @@ h2{
     }
     .detail_evenement h2{
         padding-top: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner_content_evenement{
+        width: 60%;
+        top: 22%;
+    }
+    .image_evenement{
+        width: 350px;
+        height: 250px;
+    }
+    .image-gallery{
+        width: 800px;
+    }
+    .image-gallery.left .button_left{
+        left: -380px;
+    }
+    .image-gallery.right .button_right{
+        left: 380px;
+    }
+
+    .image-gallery p {
+        width: 35%;
     }
 }

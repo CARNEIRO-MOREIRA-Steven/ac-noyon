@@ -17,12 +17,10 @@
 
 .banner_content h1{
     color: #ffffff;
-    font-size: 60px;
     font-weight: 700;
 }
 .banner_content h2{
     margin: 25px 0;
-
     text-align: start;
 }
 
@@ -35,6 +33,12 @@
     border-radius: 30px;
     height: 60px;
     width: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.banner_club_btn{
     font-size: 20px;
     color: #ffffff;
     font-weight: 600;
@@ -66,19 +70,17 @@
         top: 25%;
     }
     .banner_content h1{
-        font-size: 40px;
         text-align: center;
     }
     .banner_content h2{
-        font-size: 25px;
         text-align: center;
     }
     .banner_aside_content{
         gap: 15px;
+        flex-direction: column;
     }
     .banner_contact_btn, .banner_aside_content p{
-        font-size: 17px;
-        width: 100%;
+        width: 80%;
     }
 
     .banner_section{

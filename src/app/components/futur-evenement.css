@@ -38,10 +38,15 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    text-align: center;
 }
 
 .event-details h2{
     font-size: 30px;
+}
+
+.event-details, .date_evenement_a_venir h3{
+    font-size: 20px;
 }
 
 .evenement_a_venir_title{

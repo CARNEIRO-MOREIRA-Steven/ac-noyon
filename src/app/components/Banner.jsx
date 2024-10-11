@@ -12,7 +12,7 @@ const Banner = () => {
         2 ème en régionale 1 !</h2>
         <aside className='banner_aside_content'>
         <a href='/contact' className='banner_contact_btn'>Nous contacter</a>
-        <p>Découvrir le club</p>
+        <a href='/le_club' className='banner_club_btn'>Découvrir le club</a>
         </aside>
         </section>
     </section>

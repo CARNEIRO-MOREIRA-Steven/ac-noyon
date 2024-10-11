@@ -5,7 +5,7 @@ const Inscription_intro = () => {
   return (
     <section className='inscription_test_container'>
       <section className='inscription_intro_section'>
-        <img className='inscription_image' src='./compet.jpg'></img>
+        <img className='inscription_image_background' src='./compet.jpg'></img>
         <section className='inscription_intro_content'>
         <h2>Les inscriptions 2024-2025 sont ouvertes</h2>
             <ul> <p>Tarif des adhésions de base hors droits d'entrée, maillot, réduction :</p>
@@ -21,10 +21,10 @@ const Inscription_intro = () => {
         <section className='test_seance'>
             <h2 className='seance_gratuite_title'>Une séance gratuite pour vous aider à décider !!</h2>
             <section className='seance_gratuite_content'>
-                <p className='seance_gratuite_texte'>Vous voulez vous inscrire à la section Athlétisme de l'AC Noyonnais, mais vous hésitez encore.<br></br>
-                Venez à un cours d'essai dans le créneau de votre choix correspondant à votre âge !<br></br>
-                Venez avec votre short et vos baskets !!!<br></br>
-                Horaires des séances : aux horaires d'entrainement ci-dessous</p>
+                <p className='seance_gratuite_texte'>Vous voulez vous inscrire à l'AC Noyonnais, mais vous hésitez encore.
+                Venez à un cours d'essai dans le créneau de votre choix correspondant à votre âge !
+                Venez avec votre short et vos baskets.<br></br>
+                Horaires des séances : aux horaires d'entrainement <a href='/inscriptions_horaires#horaires_entrainements' className='lien'>consultable ici.</a></p>
                 <img src='/entrainement.jpg' className='seance_gratuite_image'></img>
             </section>
         </section>

@@ -9,7 +9,7 @@
     position: absolute;
     top: 25%;
     left: 150px;
-    width: 35%;
+    width: 45%;
 }
 
 .banner_le_club_evenement{
@@ -28,8 +28,11 @@
 
 .banner_le_club_evenement_title{
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
     text-align: center;
+}
+.banner_le_club_evenement_title a {
+    font-size: 22px;
 }
 @media screen and (max-width: 767px) {
     .banner_le_club_content{
@@ -37,13 +40,11 @@
         left: auto;
     }
     .banner_le_club_content h1{
-        font-size: 40px;
         margin-bottom: 25px;
         text-align: center;
     }
     .banner_le_club_content h2{
         text-align: center;
-        font-size: 30px;
     }
     .image_banner_le_club{
         height: 100vh;
@@ -56,5 +57,15 @@
     .banner_le_club_evenement{
         top: 65%;
         right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner_le_club_content{
+        left: 50px;
+        width: auto;
+    }
+    .banner_le_club_evenement_title a{
+        font-size: 20px;
     }
 }

@@ -28,10 +28,10 @@ const InscriptionHoraires = () => {
     <section className="horaire_info_container">
       <h2>Nos horaires d'entrainements</h2>
       <section className="horaire_info_section">
-      <aside>
+      <aside className='horaire_entrainement_image'>
       <img src="image_horaire.jpg" className="image_horaire"></img>
       </aside>
-      <section className="horaire_info_content">
+      <section className="horaire_info_content" id="horaires_entrainements">
         <aside className="horaire_entrainement">
         <h3>Lundi de 17h30 à 19h30</h3>
         <p>De Benjamins à Masters</p>
